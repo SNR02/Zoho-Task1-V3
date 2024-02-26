@@ -339,9 +339,6 @@ document.getElementById("myForm").addEventListener("submit", function(e) {
         inputBox.style.border="1px solid black";
         textArea.style.border="1px solid black";
 
-        inputBox.value = "";
-        textArea.value = "";
-        
         document.querySelector(".error1").style.display="none";
 
         let temp=document.querySelector(".filters .active");
@@ -353,6 +350,9 @@ document.getElementById("myForm").addEventListener("submit", function(e) {
         
         document.querySelectorAll(".category label").forEach(span => span.classList.remove("category-active"));
         document.getElementById("act-notes").classList.add("category-active");
+
+        inputBox.value = "";
+        textArea.value = "";
     }
 
     else{
