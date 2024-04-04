@@ -18,9 +18,9 @@ const deleteTaskAlert = document.querySelector(".custom-alert2");
 
 const busyTimings = {
     "john": {
-        "2024-03-04": ["10am", "11am", "1pm", "2pm"],
-        "2024-03-05": ["5am", "9am", "7pm", "10pm"],
-        "2024-03-06": ["6am", "11am", "12pm", "1pm"]
+        "2024-04-04": ["10am", "11am", "1pm", "2pm"],
+        "2024-04-05": ["5am", "9am", "7pm", "10pm"],
+        "2024-04-06": ["6am", "11am", "12pm", "1pm"]
     },
     "alice": {
         "2024-02-26": ["10am", "11am", "3pm"],
